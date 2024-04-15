@@ -1,5 +1,5 @@
 import "./styles.css";
-import Counter from "../Counter";
+import Counter from "./Counter";
 
 export default function App() {
   return (
@@ -8,8 +8,6 @@ export default function App() {
     </div>
   );
 }
-
-
 
 // Намутила
 // function DateNow(props){
@@ -24,7 +22,7 @@ export default function App() {
 //     const newDate = new Date(Date.now() - props.count * 86400000).toString();
 //     setDate(newDate);
 //   }
-// }, [props.count]); 
+// }, [props.count]);
 
 //  return(
 //   <div>{props.count===0 && `Today is ${date}` }
